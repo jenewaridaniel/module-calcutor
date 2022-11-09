@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+button{
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgba(10, 105, 105, 0.726);
+    color: rgb(253, 251, 251);
+    font-size: large;
+}
+
+@media(max-width:500px){
+    .container{
+        padding-top: 70%;
+    }
+}

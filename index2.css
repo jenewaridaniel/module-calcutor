@@ -1,0 +1,37 @@
+.heading{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#inputfield{
+    padding: 9px;
+    outline: none;
+}
+
+#add{
+    padding: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.todos{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: lighter;
+    margin-top: 32px;
+    text-transform: capitalize;
+    border: 1px solid ;
+}
+
+.changer{
+    text-decoration: line-through;
+}
