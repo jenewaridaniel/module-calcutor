@@ -4,8 +4,8 @@ let inputField = document.getElementById("inputfield");
 
 AddTodos.addEventListener('click', function () {
   var letter = document.createElement("p");
-  letter = document.createTextNode(inputField.value)
-  Container.appendChild(letter);
-  letter.classList.add('changer');
-  inputField.value="";
+   letter=document.createTextNode(inputField.value)
+    
+   inputField.appendChild(letter)
+   Container.appendChild(inputField)
 })
